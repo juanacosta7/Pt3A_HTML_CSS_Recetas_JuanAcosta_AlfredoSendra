@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="es-es">
-	<head>
-		<title>Contacto</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="Juan i Alfredo">
-		<link rel="stylesheet" href="css/estilo.css">
-	</head>
-	<body>
-	<nav>En construccion</nav>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<img class="fotoHeader" src="../imagenes/Logo-Delicias.png">
+		<nav>
+			<ul>
+				<li><a href="../index.html">INICIO</a></li>
+				<li><a href=#>SOBRE MÍ</a></li>
+				<li><a href="../receta/receta.html">RECETAS</a></li>
+				<li><a href=#>CONTACTO</a></li>
+				<li><a href=#>OTRAS COSAS</a></li>
+			</ul>
+		</nav>
+	</header>
+	<form class="contactForm" name="contactForm" method="get">
+		<div class="datos">
+			<div class="datosChild">
+				<label>Nombre</label>
+				<input type="text" required="" maxlength="50" class="datosBox" id="nombre" name="nombre">
+			</div>
+			<div class="datosChild">
+				<label>Apellidos</label>
+				<input type="text" required="" maxlength="50" class="datosBox" id="apellidos" name="apellidos">
+			</div>
+		</div>
+		<div class="datos">
+			<div class="datosChild">
+				<label for="correo">Email</label>
+				<input type="email" required="" maxlength="50" class="datosBox" id="correo" name="correo" placeholder="nombre@ejemplo.com">
+			</div>
+			<div class="datosChild">
+				<label for="numTel">Teléfono</label>
+				<input type="tel" required="" maxlength="50" class="datosBox" id="numTel" name="numTel" placeholder="Phone">
+			</div>
+		</div>
+		<div class="textAreaShort">
+			<label for="shortText">Asunto</label>
+			<textarea required="" class="formTextShort" id="shortText" name="shortText" rows="1"></textarea>
+		</div>
+		<div class="textAreaLarge">
+			<label for="largeText">Mensaje</label>
+			<textarea class="formTextLarge" id="largeText" name="largeText" rows="5"></textarea>
+		</div>
+		<button type="submit" class="enviarButton">Enviar</button>
+	</form>
+</body>
+</html>
 		
