@@ -56,10 +56,9 @@ nav ul li a:hover{
     margin: 20px 25px 40px 50px;
 }
 
-main section article a{
-    color: black;
-    text-decoration: none;
-    background-color: greenyellow;
+.apuntame:hover{
+    color: green;
+    
 }
 
 main section article a:hover{

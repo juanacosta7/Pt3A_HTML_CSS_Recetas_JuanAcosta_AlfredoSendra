@@ -1,5 +1,5 @@
 *{
-    border: solid 1px;
+    /* border: solid 1px; */
     text-align: justify;
 }
 .recetaArticle{
@@ -15,4 +15,41 @@
     flex-basis: 30%;
     margin: 1%;
 }
+img{
+    width: 95%;
+}
+h2{
+    margin-top: 30px;
+}
+.preparacion li{
+    margin: 5px;
+}
+aside h4{
+    margin-top: 150px;
+}
+.socialAside a{
+    width: 25%;
+}
 
+.socialAside .fblogo{
+    width: 50px;
+    height: 40px;
+}
+
+.socialAside .twlogo{
+    width: 55px;
+    height: 48px;
+    margin-bottom: -2px;
+}
+
+.socialAside .iglogo{
+    width: 40px;
+    height: 40px;
+}
+
+.socialAside .ytlogo{
+    width: 40px;
+    height: 45px;
+    margin-left: 8px;
+    margin-bottom: -3px;
+}
