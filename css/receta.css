@@ -1,0 +1,18 @@
+*{
+    border: solid 1px;
+    text-align: justify;
+}
+.recetaArticle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.recetaArticle .itemArticle:first-child{
+    flex-basis: 65%;
+    margin: 1%;
+}
+.recetaArticle .itemArticle:last-child{
+    flex-basis: 30%;
+    margin: 1%;
+}
+
