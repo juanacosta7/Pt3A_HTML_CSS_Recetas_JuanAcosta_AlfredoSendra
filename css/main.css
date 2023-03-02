@@ -58,11 +58,6 @@ nav ul li a:hover{
 
 .apuntame:hover{
     color: green;
-    
-}
-
-main section article a:hover{
-    color: white;
 }
 .foodSection{
     display:flex;
@@ -70,13 +65,14 @@ main section article a:hover{
 }
 
 .foodSection article{
-    width: clamp(100px,200px,100%);
+    flex-basis: 45%;
     margin: 10px;
+    min-width: 100px;
 }
 
 .foodSection article img{
     width: 100%;
-    height: 50%;
+    height: 70%;
 }
 
 .blog{
